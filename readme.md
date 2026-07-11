@@ -45,7 +45,7 @@
 - **Windows:**
 
 python -m venv venv
-env\Scripts\activate
+source venv\Scripts\activate
 
 - **Linux / macOS:**
 
