@@ -297,7 +297,7 @@ class App():
             self.log_status("Изображение не загружено!", is_error=True)
             return
 
-        b, g, r = cv2.split(self.cv_current)
+        b, g, r = cv2.split(self.cv_original)
         blank = np.zeros_like(b)
 
         if channel_index == 0:
