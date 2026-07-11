@@ -140,9 +140,9 @@ class App():
 
         tk.Label(
             inside_frame,
-            text="Толщина линии:").grid(row=4, column=0, sticky="w")
+            text="Толщина линии:").grid(row=4, column=0, sticky="w", columnspan=3)
 
-        self.ent_thick.grid(row=5, column=1, sticky="w")
+        self.ent_thick.grid(row=4, column=3, sticky="w")
 
         tk.Button(
             rightbar,
