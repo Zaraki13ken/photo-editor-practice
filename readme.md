@@ -55,14 +55,14 @@
   ```
 
 4. Установите зависимости:
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 5. Запустите приложение:
-  ```bash
-  python project_app.py
-  ```
+    ```bash
+    python project_app.py
+    ```
 ---
 
 ## Использование
