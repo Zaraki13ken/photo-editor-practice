@@ -43,24 +43,26 @@
 3. Создайте и активируйте виртуальное окружение:
 
 - **Windows:**
-
-- python -m venv venv
-- source venv\Scripts\activate
+  ```
+  python -m venv venv
+  source venv\Scripts\activate
+  ```
 
 - **Linux / macOS:**
-
-- python3 -m venv venv
-- source venv/bin/activate
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
 4. Установите зависимости:
-
+```
 pip install -r requirements.txt
-
+```
 
 5. Запустите приложение:
-
+```
 python project_app.py
-
+```
 ---
 
 ## Использование
