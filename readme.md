@@ -49,20 +49,20 @@
   ```
 
 - **Linux / macOS:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
 
 4. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 5. Запустите приложение:
-```bash
-python project_app.py
-```
+  ```bash
+  python project_app.py
+  ```
 ---
 
 ## Использование
