@@ -44,13 +44,13 @@
 
 - **Windows:**
 
-python -m venv venv
-source venv\Scripts\activate
+- python -m venv venv
+- source venv\Scripts\activate
 
 - **Linux / macOS:**
 
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 4. Установите зависимости:
 
