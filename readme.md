@@ -26,7 +26,7 @@
 
 ## Технологии
 
-- Python 3.6+
+- Python 3.10
 - OpenCV
 - Pillow
 - NumPy
