@@ -40,23 +40,23 @@
 
 2. Перейдите в папку с проектом
    
-2.1 Для обладателей Linux системы установите пакет Tkinter:
-
-- **Ubuntu / Debian / Linux Mint:**
-  ```Bash
-  sudo apt update
-  sudo apt install python3-tk
-  ```
-  
-- **Fedora / RedHat:**
-  ```Bash
-  sudo dnf install python3-tkinter
-  ```
-  
-- **Arch Linux / Manjaro:**
-  ```Bash
-  sudo pacman -S tk
-  ```
+   2.1 Для обладателей Linux системы установите пакет Tkinter:
+   
+   - **Ubuntu / Debian / Linux Mint:**
+     ```Bash
+     sudo apt update
+     sudo apt install python3-tk
+     ```
+     
+   - **Fedora / RedHat:**
+     ```Bash
+     sudo dnf install python3-tkinter
+     ```
+     
+   - **Arch Linux / Manjaro:**
+     ```Bash
+     sudo pacman -S tk
+     ```
 
 3. Создайте и активируйте виртуальное окружение:
 
