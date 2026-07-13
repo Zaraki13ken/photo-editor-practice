@@ -43,35 +43,35 @@
 3. **(Только для Linux)** Установите необходимые системные компоненты:
 Перед созданием окружения необходимо установить графический движок и модуль виртуальных окружений на уровне операционной системы.:
 
-- **Ubuntu / Debian / Linux Mint:**
-  ```Bash
-  sudo apt update
-  sudo apt install python3-tk python3-venv
-  ```
-  
-- **Fedora / RedHat:**
-  ```Bash
-  sudo dnf install python3-tkinter
-  ```
-  
-- **Arch Linux / Manjaro:**
-  ```Bash
-  sudo pacman -S tk
-  ```
+   - **Ubuntu / Debian / Linux Mint:**
+     ```Bash
+     sudo apt update
+     sudo apt install python3-tk python3-venv
+     ```
+     
+   - **Fedora / RedHat:**
+     ```Bash
+     sudo dnf install python3-tkinter
+     ```
+     
+   - **Arch Linux / Manjaro:**
+     ```Bash
+     sudo pacman -S tk
+     ```
 
 4. Создайте и активируйте виртуальное окружение:
 
-- **Windows:**
-  ```bash
-  python -m venv venv
-  source venv\Scripts\activate
-  ```
-
-- **Linux / macOS:**
-  ```bash
-  python3 -m venv venv
-  source venv/bin/activate
-  ```
+   - **Windows:**
+     ```bash
+     python -m venv venv
+     source venv\Scripts\activate
+     ```
+   
+   - **Linux / macOS:**
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
 
 5. Установите зависимости:
     ```bash
