@@ -40,25 +40,26 @@
 
 2. Перейдите в папку с проектом
    
-   2.1. Для обладателей Linux системы установите пакет Tkinter:
-   
-   - **Ubuntu / Debian / Linux Mint:**
-     ```Bash
-     sudo apt update
-     sudo apt install python3-tk python3-venv
-     ```
-     
-   - **Fedora / RedHat:**
-     ```Bash
-     sudo dnf install python3-tkinter
-     ```
-     
-   - **Arch Linux / Manjaro:**
-     ```Bash
-     sudo pacman -S tk
-     ```
+3. **(Только для Linux)** Установите необходимые системные компоненты:
+Перед созданием окружения необходимо установить графический движок и модуль виртуальных окружений на уровне операционной системы.:
 
-3. Создайте и активируйте виртуальное окружение:
+- **Ubuntu / Debian / Linux Mint:**
+  ```Bash
+  sudo apt update
+  sudo apt install python3-tk python3-venv
+  ```
+  
+- **Fedora / RedHat:**
+  ```Bash
+  sudo dnf install python3-tkinter
+  ```
+  
+- **Arch Linux / Manjaro:**
+  ```Bash
+  sudo pacman -S tk
+  ```
+
+4. Создайте и активируйте виртуальное окружение:
 
 - **Windows:**
   ```bash
@@ -72,12 +73,12 @@
   source venv/bin/activate
   ```
 
-4. Установите зависимости:
+5. Установите зависимости:
     ```bash
     pip install -r requirements.txt
     ```
 
-5. Запустите приложение:
+6. Запустите приложение:
     ```bash
     python main.py
     ```
