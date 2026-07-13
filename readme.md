@@ -45,7 +45,7 @@
    - **Ubuntu / Debian / Linux Mint:**
      ```Bash
      sudo apt update
-     sudo apt install python3-tk
+     sudo apt install python3-tk python3-venv
      ```
      
    - **Fedora / RedHat:**
@@ -79,7 +79,7 @@
 
 5. Запустите приложение:
     ```bash
-    python project_app.py
+    python main.py
     ```
 ---
 
